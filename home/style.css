@@ -29,7 +29,9 @@ a.navlinks:hover{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #cpyr{
-    color: #ffffff;
+    color: #AAAAAA;
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Mukta", sans-serif;
+    font-weight: 200;
+    font-style: normal;
 }
