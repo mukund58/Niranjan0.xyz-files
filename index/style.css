@@ -6,6 +6,7 @@ body{
 }
 #name{
     color: #ffffff;
+    text-shadow: #EEEE00 0 0 10px; 
     left: 20px;
     top: 25px;
     position:fixed;
