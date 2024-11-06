@@ -1,5 +1,6 @@
 /* FONTS */
 @import url(https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap);
 
@@ -53,44 +54,25 @@ body{
     transition-duration: 200ms;
     opacity: 20%;
 }
-.heading h6{
+.content h6{
     text-align: center;
     position:unset;
     color: #ffffff60;
 }
-.heading h1{
-    text-shadow: 0px 0px 30px rgba(227, 228, 237, 0.838);
-    text-align: center;
-    color: #ffffff;
-    font-size: 500%;
-    font-family: "Playwrite GB S", serif;
+.heading{
+    margin: 100px 300px;
+    text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.838);
+    color: #f5eaf8;
+    font-size: 300%;
+    font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
-    font-weight: 800;
+    font-weight: 300;
     font-style: normal;
 }
-.intro{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row-reverse;
-    flex-wrap: wrap;
-}
-.intro div p{
-    padding: 100px;
-    max-width: 500px;
-    color:rgb(195, 116, 116);
-    font-size: 200%;
-    font-family: "Work Sans", serif;
-    font-optical-sizing: auto;
-    font-weight: normal;
-    font-style: normal;
-}
-.intro img{
-    max-width: 100%;
-    width: 25%;
-    border: 3px solid white;
-    border-radius: 10%;
-    box-shadow: 0px 0px 30px rgba(227,228,237, 0.37);
+.heading
+#intro{
+    font-size: 100%;
+    color: #4b2222;
 }
 .cpyr{
     color: #AAAAAA;
