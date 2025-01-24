@@ -5,11 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-    background: linear-gradient(55deg, #803696 0%, #1fc8db 51%, #b56cf1 85%);
+        body {
+            background: linear-gradient(55deg, #803696 0%, #1fc8db 51%, #b56cf1 85%);
+            background-size: cover;
+            margin: 0;
+            height: 100vh; /* Ensures the body takes up the full viewport height */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        p {
+            color: black;
+            margin: 0;
+        }
+
+        img {
+            height: 450px;
+        }
     </style>
 </head>
 <body>
-    <p style="color:black";>The owner of this webpage is too lazy to update me.<br>
-    <img src="https://media1.tenor.com/m/-iaAbKCeLG0AAAAd/project-shiba-pixelmon.gif" alt="monki_flip" style="height: 500px;">
+    <p>The owner of this webpage is too lazy to update me.</p><br>
+    <img src="https://media1.tenor.com/m/-iaAbKCeLG0AAAAd/project-shiba-pixelmon.gif" alt="monki_flip">
 </body>
 </html>
