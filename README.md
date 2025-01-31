@@ -28,10 +28,10 @@ To get this project up and running locally on your machine:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/your-repository-name.git
+   git clone https://github.com/NiranjanD0/Niranjan0.xyz-files.git
 2. Navigate to the project folder:
    ```bash
-   cd your-repository-name
+   cd Niranjan0.xyz-files
 3. Open the project in your browser: If your project is static (using just HTML, CSS, and JavaScript), you can simply open the index.html file in your browser.
 
 ## Contributing
