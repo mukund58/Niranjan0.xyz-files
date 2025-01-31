@@ -8,6 +8,7 @@ This repository contains the source files for www.niranjan0.xyz. It showcases my
 - [Features](#features)
 - [Installation](#installation)
 - [Contributing](#contributing)
+- [Deployment](Deployment)
 - [License](#license)
 
 ## About
@@ -49,6 +50,9 @@ To get this project up and running locally on your machine:
    git push origin feature-branch
    ```
 5. Open a pull request with a clear description of your changes.
+
+## Deployment
+This website is hosted using GitHub Pages.
 
 ## License
 This project is open-source and available under the [MIT License](LICENSE).
