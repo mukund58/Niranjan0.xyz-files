@@ -7,7 +7,6 @@ This repository contains the source files for www.niranjan0.xyz. It showcases my
 - [Tech Stack](#tech-stack)
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -31,36 +30,25 @@ To get this project up and running locally on your machine:
    ```bash
    git clone https://github.com/your-username/your-repository-name.git
 2. Navigate to the project folder:
-3. cd your-repository-name
+   ```bash
+   cd your-repository-name
+3. Open the project in your browser: If your project is static (using just HTML, CSS, and JavaScript), you can simply open the index.html file in your browser.
 
-4. Open the project in your browser: If your project is static (using just HTML, CSS, and JavaScript), you can simply open the index.html file in your browser.
+## Contributing
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature-branch
+   ```
+3. Make your changes and commit:
+   ```bash
+   git commit -m "Add new feature"
+   ```
+4. Push to your forked repository:
+   ```bash
+   git push origin feature-branch
+   ```
+5. Open a pull request with a clear description of your changes.
 
-Alternatively, if you're using a local development environment (e.g., with a framework like React or a server-side component), follow the instructions specific to that environment. For example, you might need to run a local server:
-npm install  # Install dependencies (if using npm)
-npm start    # Start the development server
-Contributing
-Feel free to fork the repository and submit pull requests if you'd like to contribute to this project. Whether it's fixing bugs, adding features, or improving documentation, your contributions are always welcome.
-
-How to Contribute:
-Fork the repository to your own GitHub account.
-Clone the forked repository to your local machine.
-Create a new branch for your changes:
-bash
-Copy
-git checkout -b new-feature
-Make your changes, then commit them:
-bash
-Copy
-git commit -m "Add a new feature"
-Push the changes back to your fork:
-bash
-Copy
-git push origin new-feature
-Submit a pull request to the main repository.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-bash
-Copy
-
-Just replace the placeholder for the repository URL and live website link, and you’re good to go!
+## License
+This project is open-source and available under the [MIT License](LICENSE).
