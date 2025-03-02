@@ -1,8 +1,14 @@
-body{
+body {
     background: linear-gradient(55deg, #35da98 0%, #49d5e4 51%, #5faf4d 85%);
 }
+
 nav>a[aria-current="page"] {
     font-weight: bold;
     color: #810644;
     text-decoration: underline;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
 }
