@@ -1,14 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
 body {
-    background: linear-gradient(55deg, #35da98 0%, #49d5e4 51%, #5faf4d 85%);
+    /* background: linear-gradient(55deg, #35da98 0%, #49d5e4 51%, #5faf4d 85%); */
+    background-image: url(https://img.freepik.com/free-vector/blurred-purple-background_1107-140.jpg?t=st=1740996684~exp=1741000284~hmac=cb77a7051e7f70bcc345dc3ce824cc733c58789be3982a4b271feb9852422a90&w=900);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-nav>a[aria-current="page"] {
-    font-weight: bold;
-    color: #810644;
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar a[aria-current="page"] {
+    font-weight: 900;
+    color: #5a9bd0;
     text-decoration: underline;
 }
 
-.navigation {
-    display: flex;
-    align-items: center;
+.navbar a {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0 20px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    transform: scale(1.1);
+    color: #a5a5a5;
 }
