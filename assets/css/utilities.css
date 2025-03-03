@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Madimi+One&display=swap');
 
 body {
     /* background: linear-gradient(55deg, #35da98 0%, #49d5e4 51%, #5faf4d 85%); */
@@ -10,16 +10,28 @@ body {
     /* width: 100vw; */
 }
 
-.navbar {
+.navbar nav {
     display: flex;
     align-items: center;
     justify-content: center;
+    background: #cb8836db;
+    padding: 13px;
+}
+
+.namelogo{
+    text-shadow: #EEEE00 0 0 10px; 
+    padding: 13px;
+    position: fixed;
+    font-family: "Great Vibes", cursive;
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: none;
 }
 
 .navbar a[aria-current="page"] {
     font-weight: 900;
-    color: #5a9bd0;
-    text-decoration: underline;
+    color: #294760;
+    /* text-decoration: underline; */
 }
 
 .navbar a {
@@ -30,11 +42,13 @@ body {
     font-weight: 500;
     color: #fff;
     text-decoration: none;
+    display: inline-block;
+    transition: transform 0.3s ease;
 }
 
 .navbar a:hover {
     transform: scale(1.1);
-    color: #a5a5a5;
+    text-decoration: underline;
 }
 
 .cpyrt {
