@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Madimi+One&display=swap');
 
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 body {
     /* background: linear-gradient(55deg, #35da98 0%, #49d5e4 51%, #5faf4d 85%); */
     background-image: url(https://img.freepik.com/free-vector/blurred-purple-background_1107-140.jpg?t=st=1740996684~exp=1741000284~hmac=cb77a7051e7f70bcc345dc3ce824cc733c58789be3982a4b271feb9852422a90&w=900);
@@ -10,12 +22,21 @@ body {
     /* width: 100vw; */
 }
 
-.navbar nav {
+.navbar {
     display: flex;
     align-items: center;
     justify-content: center;
     background: #cb8836db;
     padding: 13px;
+    border: 1px solid #fff;
+    /* animation: slideIn 1s ease-out; */
+}
+
+.menubar {
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #294760;
 }
 
 /* .namelogo{
@@ -52,9 +73,12 @@ body {
 }
 
 .cpyrt {
-    text-align: center;
     padding: 10px;
     background: #222;
+}
+
+.cpyrt p{
+    text-align: center;
     color: #AAAAAA;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
