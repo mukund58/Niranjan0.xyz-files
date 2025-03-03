@@ -18,7 +18,7 @@ body {
     padding: 13px;
 }
 
-.namelogo{
+/* .namelogo{
     text-shadow: #EEEE00 0 0 10px; 
     padding: 13px;
     position: fixed;
@@ -26,7 +26,7 @@ body {
     font-weight: 600;
     font-style: normal;
     text-decoration: none;
-}
+} */
 
 .navbar a[aria-current="page"] {
     font-weight: 900;
