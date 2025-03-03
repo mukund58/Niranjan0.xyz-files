@@ -5,6 +5,10 @@ body {
     background-image: url(https://img.freepik.com/free-vector/blurred-purple-background_1107-140.jpg?t=st=1740996684~exp=1741000284~hmac=cb77a7051e7f70bcc345dc3ce824cc733c58789be3982a4b271feb9852422a90&w=900);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 .navbar {
