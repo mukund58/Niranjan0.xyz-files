@@ -29,7 +29,10 @@ body {
     background: #cb8836db;
     padding: 13px;
     border: 1px solid #fff;
-    /* animation: slideIn 1s ease-out; */
+}
+
+.slidein{
+    animation: slideIn 1s ease-out;
 }
 
 .menubar {
@@ -70,6 +73,10 @@ body {
 .navbar a:hover {
     transform: scale(1.1);
     text-decoration: underline;
+}
+
+main {
+    min-height: 80vh;
 }
 
 .cpyrt {
