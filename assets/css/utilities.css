@@ -12,23 +12,30 @@
     }
 }
 
+/* @keyframes gradient {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+} */
+
 body {
-    /* background: linear-gradient(55deg, #35da98 0%, #49d5e4 51%, #5faf4d 85%); */
-    background-image: url(https://img.freepik.com/free-vector/blurred-purple-background_1107-140.jpg?t=st=1740996684~exp=1741000284~hmac=cb77a7051e7f70bcc345dc3ce824cc733c58789be3982a4b271feb9852422a90&w=900);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    overflow-x: hidden;
-    /* width: 100vw; */
+    background: linear-gradient(45deg, #fc0009 , #3801ff, #fdfdfe);
+    height: 100vh;
 }
 
 .navbar {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #cb8836db;
+    /* background: #cb8836db; */
     padding: 13px;
-    border: 1px solid #fff;
+    /* border: 1px solid #fff; */
 }
 
 .slidein {
@@ -39,7 +46,7 @@ body {
     display: flex;
     padding: 10px;
     border: 1px solid #fff;
-    border-radius: 10px;
+    border-radius: 40px;
     box-shadow: 2px 2px 2px #294760;
 }
 
@@ -73,7 +80,7 @@ body {
 
 .navbar a:hover {
     transform: scale(1.1);
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 main {
@@ -81,15 +88,13 @@ main {
 }
 
 .cpyrt {
-    /* display: flex; */
-    display: var(--display);
+    display: flex;
     justify-content: center;
     padding: 10px;
     background: #222;
 }
 
 .cpyrt p {
-    /* text-align: center; */
     color: #AAAAAA;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
