@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Madimi+One&display=swap');
 
-@keyframes slideIn {
+@keyframes slideInDown {
     0% {
         opacity: 0;
         transform: translateY(-100%);
@@ -9,6 +9,18 @@
     100% {
         opacity: 1;
         transform: translateY(0);
+    }
+}
+
+@keyframes slideInRight{
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
     }
 }
 
@@ -38,8 +50,8 @@ body {
     /* border: 1px solid #fff; */
 }
 
-.slidein {
-    animation: slideIn 1s ease-out;
+.slideInDown {
+    animation: slideInDown 1s ease-out;
 }
 
 .menubar {
@@ -87,9 +99,16 @@ main {
     min-height: 80vh;
 }
 
-.cpyrt {
+main>p{
+    font-family: 'Courier New', Courier, monospace; 
     display: flex;
     justify-content: center;
+    animation: slideInRight 1s ease-out;
+}
+
+.cpyrt {
+    display: flex;
+    justify-content: space-around;
     padding: 10px;
     background: #222;
 }
