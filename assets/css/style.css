@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Madimi+One&display=swap');
+
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* @keyframes gradient {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+} */
+
+body {
+    background: linear-gradient(125deg, #011c32, #0b3f69, #011c32);
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+nav{
+    position: fixed;
+}
+
+.menubar {
+    /* position: fixed; */
+    display: flex;
+    min-width: 65vw;    
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 35px;
+    box-shadow: 2px 2px 2px #294760;
+}
+
+.navbar a {
+    font-family: "Madimi One", sans-serif;
+    font-style: normal;
+    margin: 0 20px;
+    font-weight: 300;
+    font-size: 80%;
+    color: #fff;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.navbar a:hover {
+    transform: scale(1.2);
+    text-decoration: none;
+}
+
+main {
+    min-height: 80vh;
+}
+
+.cpyrt {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background: #222;
+}
+
+.cpyrt p {
+    color: #AAAAAA;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    height: 40%;
+    width: 40%;
+}
