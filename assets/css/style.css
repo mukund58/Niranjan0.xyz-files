@@ -25,7 +25,8 @@
 } */
 
 body {
-    background: linear-gradient(125deg, #011c32, #0b3f69, #011c32);
+    /* background: linear-gradient(125deg, #011c32, #0b3f69, #011c32); */
+    background: linear-gradient(125deg, #5e5e5e, #0b3f69, #5e5e5e);
     height: 100vh;
 }
 
