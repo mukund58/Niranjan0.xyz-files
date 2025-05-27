@@ -25,9 +25,13 @@
 } */
 
 body {
-    /* background: linear-gradient(125deg, #011c32, #0b3f69, #011c32); */
-    background: linear-gradient(125deg, #42abd1, #0b3f69, #e75353);
-    height: 100vh;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    /* height: 100vh; */
+}
+
+header{
+    display: flex;
+    justify-content: center;
 }
 
 .navbar {
@@ -38,17 +42,17 @@ body {
 
 nav{
     position: fixed;
+    margin: auto;
+    bottom: 5vh;
 }
 
 .menubar {
-    /* position: fixed; */
     display: flex;
-    min-width: 65vw;    
-    justify-content: center;
-    padding: 10px;
-    border: 1px solid #fff;
-    border-radius: 35px;
-    box-shadow: 2px 2px 2px #294760;
+    justify-content: space-between;
+    /* padding: 10px; */
+    /* border: 1px solid #fff; */
+    /* border-radius: 35px; */
+    /* box-shadow: 2px 2px 2px #294760; */
 }
 
 .navbar a {
