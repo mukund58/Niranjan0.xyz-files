@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Noto+Sans+JP:wght@100..900&display=swap');
 
 @keyframes slideIn {
     0% {
@@ -11,6 +11,21 @@
         transform: translateY(0);
     }
 }
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .home img{
+
+} */
+
+/* .home p{
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+} */
 
 /* @keyframes gradient {
     0%{
