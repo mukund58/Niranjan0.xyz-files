@@ -39,7 +39,7 @@ header {
 nav {
     position: fixed;
     bottom: 5vh;
-    animation: slideIn 0.9s ease-in-out forwards;
+    animation: slideIn 0.9s ease-in-out;
 }
 
 .menubar {
