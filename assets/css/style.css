@@ -55,6 +55,7 @@ nav a {
     font-size: 80%;
     color: var(--sec-color);
     text-decoration: none;
+    transition: transform 0.3s ease-in-out;
 }
 
 nav a:hover {
