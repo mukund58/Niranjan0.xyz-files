@@ -26,36 +26,31 @@ body {
     background: black;
 }
 
-.home{
+.home {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.logo{
+.logo {
     height: 30vh;
 }
 
-.home p{
+.home p {
     color: white;
     font-family: 'Noto Sans JP', sans-serif;
 }
 
 
-header{
+header {
     display: flex;
     justify-content: center;
 }
 
-.navbar {
+nav {
     display: flex;
     justify-content: center;
-    /* padding: 10px; */
-}
-
-nav{
     position: fixed;
-    margin: auto;
     bottom: 5vh;
 }
 
@@ -64,7 +59,7 @@ nav{
     justify-content: space-between;
 }
 
-.navbar a {
+nav a {
     font-family: "Madimi One", sans-serif;
     font-style: normal;
     margin: 0 20px;
@@ -75,12 +70,12 @@ nav{
     transition: transform 0.3s ease;
 }
 
-.navbar a:hover {
+nav a:hover {
     transform: scale(1.5);
     text-decoration: none;
 }
 
-main{
+main {
     display: flex;
     justify-content: center;
 }
