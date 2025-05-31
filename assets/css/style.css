@@ -7,7 +7,7 @@
 
 @keyframes slideIn {
     0% {
-        opacity: 0;
+        opacity: ;
         transform: translateY(100%);
     }
 
