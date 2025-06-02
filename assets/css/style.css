@@ -64,7 +64,7 @@ nav a:hover {
 }
 
 .home {
-    border: 2px solid white;
+    /* border: 2px solid white; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,10 +76,9 @@ nav a:hover {
 }
 
 .greetings {
-    align-self: flex-start;
+    align-self: center;
     color: var(--sec-color);
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 200%;
     text-align: center;
 }
-/*  */
