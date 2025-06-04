@@ -75,7 +75,7 @@ nav a:hover {
     height: 30vh;
 }
 
-.greetings {
+.home-text {
     align-self: center;
     color: var(--sec-color);
     font-family: 'Noto Sans JP', sans-serif;
