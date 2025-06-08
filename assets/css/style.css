@@ -2,7 +2,7 @@
 
 :root{
 --color: #000;
---sec-color: #fff;
+--txt-color: #fff;
 }
 
 @keyframes slideIn {
@@ -57,12 +57,13 @@ nav a {
     margin: 0 20px;
     font-weight: 300;
     font-size: 80%;
-    color: var(--sec-color);
+    color: var(--txt-color);
     text-decoration: none;
     transition: transform 0.3s ease-in-out;
 }
 
 nav a:hover {
+    /* color: yellow; */
     transform: scale(1.5);
     text-decoration: none;
 }
@@ -81,7 +82,7 @@ nav a:hover {
 
 .home-text {
     align-self: center;
-    color: var(--sec-color);
+    color: var(--txt-color);
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 200%;
     text-align: center;
