@@ -5,36 +5,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Niranjan0</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
     <!-- <link rel="shortcut icon" href="assets/images/logo.svg" type="image/x-icon"> -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
     <link rel="manifest" href="assets/favicon/site.webmanifest">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: black;
+        }
+
+        .bimg {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            position: fixed;
+            top: 0;
+            left: 0;
+            opacity: 0.3;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+            flex-direction: column;
+        }
+        .text {
+            font-family: "Madimi One", sans-serif;
+            color: white;
+            text-align: center;
+            margin: 40px;
+            z-index: 1;
+        }
+        .br{
+            color: rgba(255, 255, 255, 0.534);
+        }
+        .name {
+            font-weight: 800;
+            margin-bottom: 100px;
+        }
+    </style>
 </head>
 
 <body>
-    <script src="assets/script/script.js"></script>
-    <header>
-        <nav>
-            <div class="menubar">
-                <a href="#home" aria-current="page">Home</a>
-                <a href="#about">About</a>
-                <a href="#skills">Skills</a>
-                <!-- <a href="#projects">Projects</a> -->
-                <a href="#connect">Connect</a>
-            </div>
-        </nav>
-    </header>
-    <main>
-        <div class="home">
-            <img class="logo" src="assets/images/logo.svg" alt="logo">
-            <div class="home-text">
-                <p>Hey there, <br>I'm Niranjan!!</p>
-            </div>
-        </div>
-    </main>
-    <footer>
-    </footer>
+    <img src="assets/images/5435910.webp" alt="" class="bimg">
+    <div class="container">
+        <h6 class="text name">Niranjan0</h6>
+        <h1 class="text">New website coming soon.</h1>
+        <h6 class="text br">P.S. The developer is probably binge-watching something instead of coding 😴</h4>
+    </div>
 </body>
+
 </html>
