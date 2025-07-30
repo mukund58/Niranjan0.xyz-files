@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Noto+Sans+JP:wght@100..900&display=swap');
 
-:root{
---color: #000;
---txt-color: #fff;
+:root {
+    --color: #000;
+    --txt-color: #fff;
 }
 
 @keyframes slideIn {
@@ -17,20 +17,11 @@
     }
 }
 
-/* @media only screen and (max-width: 500px) {
-    .home{
-        flex-direction: column;
-        align-items: center;
-    }
-    .logo{
-        width: 110vw;
-    }
-} */
-
-*{
+* {
     padding: 0;
     margin: 0;
 }
+
 body {
     background: var(--color);
 }
@@ -38,11 +29,11 @@ body {
 header {
     display: flex;
     justify-content: center;
+    position: sticky;
+    top: 4vh;
 }
 
 nav {
-    position: fixed;
-    bottom: 5vh;
     animation: slideIn 0.9s ease-in-out;
 }
 
@@ -51,7 +42,11 @@ nav {
     justify-content: space-between;
 }
 
-nav a {
+.menubar li {
+    list-style: none;
+}
+
+.menubar a {
     font-family: "Madimi One", sans-serif;
     font-style: normal;
     margin: 0 20px;
@@ -62,8 +57,7 @@ nav a {
     transition: transform 0.3s ease-in-out;
 }
 
-nav a:hover {
-    /* color: yellow; */
+.menubar a:hover {
     transform: scale(1.5);
     text-decoration: none;
 }
@@ -86,4 +80,21 @@ nav a:hover {
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 200%;
     text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.332);
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+}
+
+footer p {
+    color: var(--txt-color);
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 80%;
+    margin: 20px 0;
 }
