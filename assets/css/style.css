@@ -47,6 +47,7 @@ nav {
 }
 
 .menubar a {
+    display: inline-block;
     font-family: "Madimi One", sans-serif;
     font-style: normal;
     margin: 0 20px;
@@ -54,11 +55,11 @@ nav {
     font-size: 80%;
     color: var(--txt-color);
     text-decoration: none;
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease;
 }
 
 .menubar a:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
     text-decoration: none;
 }
 
